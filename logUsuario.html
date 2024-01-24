@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--login para usuario administrador-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio de sesión</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="icon" href="image/LogoPazstor.ico">
+    </head>
+    <body>
+        <div class="box">
+            <h2>QualiZap Administrador</h2>
+            <form action="validarAdmin.php" method="POST">
+                <div class="inputbox">
+                    <input name="usuario" type="text" autocomplete="off" required>
+                    <label>Usuario</label>
+                </div>    
+                <div class="inputbox">
+                    <input name="passwords" type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <input type="submit"  value="Entrar">
+                <br>
+                <a href="login.html">Regresar</a>
+            </form>
+        </div>
+    </body>
+</html>
